@@ -1,0 +1,62 @@
+{
+  "basics": {
+    "name": "Deneen Waddell",
+    "email": "waddelldeneen@gmail.com",
+    "phone": "+1 (262) 391-6857"
+  },
+  "education": [
+    {
+      "institution": "Sacred Heart Seminary and School of Theology",
+      "studyType": "Master of Theology",
+      "area": "Theology",
+      "startDate": "09/2024",
+      "endDate": "06/2025",
+      "location": "Franklin, WI"
+    },
+    {
+      "institution": "Marquette University",
+      "studyType": "Bachelor of Arts",
+      "area": "Communication & Business",
+      "startDate": "09/1982",
+      "endDate": "05/1986",
+      "location": "Milwaukee, WI"
+    }
+  ],
+  "work": [
+    {
+      "name": "Lifeguard & Group Fitness Instructor",
+      "position": "Lifeguard & Group Fitness Instructor",
+      "location": "New Berlin, WI",
+      "startDate": "03/2017",
+      "endDate": "07/2025",
+      "highlights": [
+        "Ensure the safety and satisfaction of members through vigilance, care, and professionalism",
+        "Create a welcoming and supportive fitness environment that encourages community and personal growth",
+        "Certified Group Fitness Instructor and Lifeguard"
+      ]
+    },
+    {
+      "name": "Group Fitness Instructor",
+      "position": "Group Fitness Instructor",
+      "location": "Milwaukee, WI",
+      "startDate": "11/2023",
+      "endDate": "Present",
+      "highlights": [
+        "Lead engaging group classes focused on wellness, encouragement, and motivation",
+        "Foster inclusive environments for participants of all backgrounds",
+        "Deliver high-energy instruction that emphasizes health, communication, and teamwork"
+      ]
+    },
+    {
+      "name": "Marketing Representative",
+      "position": "Marketing Representative",
+      "location": "Milwaukee, WI",
+      "startDate": "07/1989",
+      "endDate": "08/1991",
+      "highlights": [
+        "Surpassed multi-million-dollar sales quotas through strong relationship management and communication skills",
+        "Delivered tailored business presentations and client training to enhance satisfaction and retention"
+      ]
+    }
+  ]
+}

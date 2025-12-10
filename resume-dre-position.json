@@ -1,0 +1,47 @@
+{
+  "basics": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "(123) 456-7890",
+    "location": {
+      "city": "Your City",
+      "region": "State"
+    }
+  },
+  "work": [
+    {
+      "company": "St. Martin of Tours Parish",
+      "position": "Director of Religious Education",
+      "location": "Franklin, WI",
+      "startDate": "2025-12",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Direct recruitment, training, coordination, evaluation, and spiritual development of catechists to teach and assist with Religious Education programs, Vacation Bible School, and Sacramental preparation for Reconciliation, First Communion, and Confirmation",
+        "Define responsibilities and serve as advisor and support to each catechist",
+        "Coordinate schedules and oversee content, resources, and programming for Religious Education including preparing for First Communion, Reconciliation and Confirmation",
+        "Coordinate both First Communion and Confirmation retreats",
+        "Coordinate parent nights for religious education parents",
+        "Coordinate Sacramental preparation: RCIA, RCIC, FOCCUS",
+        "Devise yearly curriculum and calendars for programs",
+        "Coordinate special liturgies, activities and events for Christmas",
+        "Recruit, train, and schedule altar servers",
+        "Organize and coordinate youth mass",
+        "Collaborate with parish staff and committees to plan and coordinate family social events",
+        "Collaborate with the Communication Director to develop and maintain effective means for publicizing and promoting programs",
+        "Collaborate with parish finance committee to secure funding for programs and ensure expenses remain within budget",
+        "Serve as liaison with parish families, parish community, and the Archdiocese of Milwaukee",
+        "Initiate procedures for evaluating all aspects of parish's ministry to youth",
+        "Maintain necessary office and program records",
+        "Keep parish staff and faith community informed of child/family ministry programs, activities, goals, and experiences",
+        "Attend parish meetings as warranted",
+        "Stay informed of developments directed toward improving child/family ministry through attending diocesan, regional, and national conferences",
+        "Lead and manage other projects as assigned"
+      ]
+    }
+  ],
+  "education": [],
+  "skills": [],
+  "projects": [],
+  "awards": []
+}

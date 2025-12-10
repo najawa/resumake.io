@@ -35,11 +35,22 @@ function resolveTemplatePath(templatePath: string) {
  * @return The generated LaTeX document as well as its additional opts.
  */
 export default function getTemplateData(data: FormValues): TemplateData {
+  // Normalize work data: ensure both 'name' and 'company' fields are populated
+  // The form uses 'company' (non-standard), but templates and JSON Resume standard use 'name'
+  const normalizedData = {
+    ...data,
+    work: data.work?.map(job => ({
+      ...job,
+      name: job.name || job.company,
+      company: job.company || job.name
+    }))
+  }
+
   // TODO: list required packages for each template
-  switch (data.selectedTemplate) {
+  switch (normalizedData.selectedTemplate) {
     case TEMPLATE1:
       return {
-        texDoc: template1(data),
+        texDoc: template1(normalizedData),
         opts: {
           cmd: 'pdflatex'
         }
@@ -47,7 +58,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE2:
       return {
-        texDoc: template2(data),
+        texDoc: template2(normalizedData),
         opts: {
           cmd: 'xelatex',
           inputs: resolveTemplatePath('/template2/inputs'),
@@ -57,7 +68,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE3:
       return {
-        texDoc: template3(data),
+        texDoc: template3(normalizedData),
         opts: {
           cmd: 'pdflatex'
         }
@@ -65,7 +76,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE4:
       return {
-        texDoc: template4(data),
+        texDoc: template4(normalizedData),
         opts: {
           cmd: 'xelatex',
           inputs: resolveTemplatePath('/template4/inputs'),
@@ -75,7 +86,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE5:
       return {
-        texDoc: template5(data),
+        texDoc: template5(normalizedData),
         opts: {
           cmd: 'pdflatex',
           inputs: resolveTemplatePath('/template5/inputs'),
@@ -85,7 +96,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE6:
       return {
-        texDoc: template6(data),
+        texDoc: template6(normalizedData),
         opts: {
           cmd: 'xelatex',
           inputs: resolveTemplatePath('/template6/inputs'),
@@ -95,7 +106,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE7:
       return {
-        texDoc: template7(data),
+        texDoc: template7(normalizedData),
         opts: {
           cmd: 'pdflatex',
           inputs: resolveTemplatePath('/template7/inputs')
@@ -104,7 +115,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE8:
       return {
-        texDoc: template8(data),
+        texDoc: template8(normalizedData),
         opts: {
           cmd: 'lualatex',
           inputs: resolveTemplatePath('/template8/inputs')
@@ -113,7 +124,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     case TEMPLATE9:
       return {
-        texDoc: template9(data),
+        texDoc: template9(normalizedData),
         opts: {
           cmd: 'pdflatex'
         }
@@ -121,7 +132,7 @@ export default function getTemplateData(data: FormValues): TemplateData {
 
     default:
       return {
-        texDoc: template1(data),
+        texDoc: template1(normalizedData),
         opts: {
           cmd: 'pdflatex'
         }

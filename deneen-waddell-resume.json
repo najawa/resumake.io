@@ -1,0 +1,193 @@
+{
+  "basics": {
+    "name": "Deneen Waddell",
+    "email": "waddelldeneen@gmail.com",
+    "phone": "+1 (262) 391-6857",
+    "location": {
+      "city": "New Berlin",
+      "region": "WI",
+      "countryCode": "USA"
+    },
+    "profiles": []
+  },
+  "sections": [
+    "profile",
+    "education",
+    "work",
+    "volunteer",
+    "skills",
+    "awards"
+  ],
+  "headings": {
+    "work": "Professional Experience",
+    "education": "Education",
+    "skills": "Key Skills",
+    "volunteer": "Leadership and Volunteer Experience",
+    "awards": "Certifications"
+  },
+  "selectedTemplate": 1,
+  "work": [
+    {
+      "name": "Princeton Club",
+      "location": "New Berlin, WI",
+      "position": "Lifeguard & Group Fitness Instructor",
+      "startDate": "2017-03",
+      "endDate": "Present",
+      "highlights": [
+        "Ensure the safety and satisfaction of members through vigilance, care, and professionalism",
+        "Create a welcoming and supportive fitness environment that encourages community and personal growth",
+        "Certified Group Fitness Instructor and Lifeguard"
+      ]
+    },
+    {
+      "name": "Southwest YMCA",
+      "location": "Milwaukee, WI",
+      "position": "Group Fitness Instructor",
+      "startDate": "2023-11",
+      "endDate": "Present",
+      "highlights": [
+        "Lead engaging group classes focused on wellness, encouragement, and motivation",
+        "Foster inclusive environments for participants of all backgrounds",
+        "Deliver high-energy instruction that emphasizes health, communication, and teamwork"
+      ]
+    },
+    {
+      "name": "IBM Corporation",
+      "location": "Milwaukee, WI",
+      "position": "Marketing Representative",
+      "startDate": "1989-07",
+      "endDate": "1991-08",
+      "highlights": [
+        "Surpassed multi-million-dollar sales quotas through strong relationship management and communication skills",
+        "Delivered tailored business presentations and client training to enhance satisfaction and retention",
+        "Completed an intensive six-month program in professional sales and customer support",
+        "Led workshops and training sessions for both internal teams and customers",
+        "Presented findings to management and executive leadership, offering insights to refine strategies"
+      ]
+    },
+    {
+      "name": "Digital Equipment Corporation",
+      "location": "Milwaukee, WI",
+      "position": "Marketing Representative",
+      "startDate": "1987-02",
+      "endDate": "1989-06",
+      "highlights": [
+        "Managed key client accounts with a focus on long-term partnership and service excellence",
+        "Provided technical sales support, product education, and follow-up care",
+        "Completed a 12-month training program in professional sales and client management",
+        "Engaged customers to identify their needs and provided tailored solutions"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Homemaker – Full-Time Caregiver & Educational Program Leader",
+      "location": "New Berlin, WI",
+      "position": "Caregiver, Educator, and Cultural Mentor",
+      "startDate": "1991-10",
+      "endDate": "Present",
+      "highlights": [
+        "Provided full-time care and educational leadership for a family of six children, including one adopted daughter",
+        "Directed 15 years of homeschool instruction, developing curricula, assessments, and individualized learning plans",
+        "Lead Bible, theology discussion, and catechetical groups, enriching the spiritual formation of parishioners and young adults in Catholic doctrine and Scripture",
+        "Organized and contributed to charitable outreach initiatives with a focus on works of mercy, charity, and evangelization",
+        "Homestay Host and Cultural Mentor for International Students from Marquette University and Brookfield Academy, providing faith-informed home environment with pastoral guidance and moral support",
+        "Managed multi-year logistics to complete marathons in all 50 U.S. states and on five continents, coordinating travel, planning, and budgeting",
+        "Planned and led educational travel to 26 states, 30 national parks, and 6 countries to promote global awareness and cultural learning"
+      ]
+    },
+    {
+      "organization": "Apologetics and Faith Formation Ministry",
+      "position": "Facilitator and Evangelical-Catholic Bridge Builder",
+      "highlights": [
+        "Spearheaded apologetics study groups following personal theological reversion to Catholicism",
+        "Drew on both Evangelical and Catholic theological frameworks to foster ecumenical dialogue and faithful catechesis rooted in magisterial teaching",
+        "Directed home school and church based faith formation programs and small group ministries, fostering deep discussions on Scripture, Catholic teachings, and apologetics"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sacred Heart Seminary and School of Theology",
+      "location": "Franklin, WI",
+      "studyType": "Master of Theology",
+      "area": "Theology",
+      "startDate": "2023-09",
+      "endDate": "2025-05",
+      "score": "3.86 GPA"
+    },
+    {
+      "institution": "Marquette University",
+      "location": "Milwaukee, WI",
+      "studyType": "Bachelor of Arts",
+      "area": "Communications & Business",
+      "startDate": "1982-09",
+      "endDate": "1986-05",
+      "score": "Cum Laude"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Customer Service & Hospitality",
+      "keywords": [
+        "Customer Service",
+        "Hospitality",
+        "Client Relations"
+      ]
+    },
+    {
+      "name": "Communication & Leadership",
+      "keywords": [
+        "Public Speaking",
+        "Group Leadership",
+        "Cross-Cultural Communication",
+        "Training & Development"
+      ]
+    },
+    {
+      "name": "Education & Instruction",
+      "keywords": [
+        "English Language Instruction",
+        "Curriculum Development",
+        "Faith-Based Mentorship",
+        "Theological Teaching"
+      ]
+    },
+    {
+      "name": "Business & Sales",
+      "keywords": [
+        "Sales",
+        "Business Communication",
+        "Relationship Management",
+        "Client Presentations"
+      ]
+    },
+    {
+      "name": "Program Coordination",
+      "keywords": [
+        "Event Coordination",
+        "Program Management",
+        "Long-range Planning",
+        "Budget Management"
+      ]
+    },
+    {
+      "name": "Health & Wellness",
+      "keywords": [
+        "Group Fitness Instruction",
+        "Health Education",
+        "Safety & Risk Management"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certified Group Fitness Instructor",
+      "date": "Expires Nov 2025"
+    },
+    {
+      "title": "Lifeguard, CPR, AED, and First Aid Certified",
+      "date": "Expires Feb 2026"
+    }
+  ]
+}
